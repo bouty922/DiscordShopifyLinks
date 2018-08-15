@@ -1,1 +1,1 @@
-worker: js main.js
+worker: js index.js
