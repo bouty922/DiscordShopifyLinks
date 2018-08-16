@@ -1,3 +1,3 @@
 NodeJS
-Requests
+Request
 simplejson
