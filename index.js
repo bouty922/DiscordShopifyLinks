@@ -48,7 +48,7 @@ bot.on('message', msg => {
             .setDescription(links)
             .setTimestamp(new Date().toISOString())
             .setColor(0x0E76BD)
-            .setFooter('made by Tago Mago', 'https://cdn.discordapp.com/embed/avatars/0.png')
+            .setFooter('Fait par Bouty92', 'https://support.discordapp.com/system/photos/3600/7204/6172/profile_image_368459926511_678183.jpg')
         msg.channel.send(embed)
     }
     function exec(err) {
