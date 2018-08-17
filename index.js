@@ -12,7 +12,7 @@ bot.on('message', msg => {
     const args = msg.content.slice(config.prefix.length).split(/ +/);
     const command = args.shift().toLowerCase();
     function getlinks() {
-        this.atc = []
+        this.links = []
         this.title = []
         if (command === 'atc') {
             content = msg.content.slice(7)
@@ -45,7 +45,7 @@ bot.on('message', msg => {
     function send () {
         var embed = new Discord.RichEmbed()
             .setAuthor(title)
-            .setDescription(links)
+            .setDescription(atc)
             .setTimestamp(new Date().toISOString())
             .setColor(0x0E76BD)
             .setFooter('By COPNTALK ', 'https://media.discordapp.net/attachments/478702505484877826/479845227377721364/image.jpg')
