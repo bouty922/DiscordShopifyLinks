@@ -14,7 +14,7 @@ bot.on('message', msg => {
     function getlinks() {
         this.links = []
         this.title = []
-        if (command === 'atc') {
+        if (command === 'links') {
             content = msg.content.slice(7)
             const opts = {
                 method: 'GET',
