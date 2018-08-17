@@ -12,7 +12,7 @@ bot.on('message', msg => {
     const args = msg.content.slice(config.prefix.length).split(/ +/);
     const command = args.shift().toLowerCase();
     function getlinks() {
-        this.links = []
+        this.atc = []
         this.title = []
         if (command === 'atc') {
             content = msg.content.slice(7)
