@@ -45,7 +45,7 @@ bot.on('message', msg => {
     function send () {
         var embed = new Discord.RichEmbed()
             .setAuthor(title)
-            .setDescription(atc)
+            .setDescription(links)
             .setTimestamp(new Date().toISOString())
             .setColor(0x0E76BD)
             .setFooter('by COPNTALK ', 'https://media.discordapp.net/attachments/478702505484877826/479845227377721364/image.jpg')
