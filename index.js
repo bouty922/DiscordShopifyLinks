@@ -14,7 +14,7 @@ bot.on('message', msg => {
     function getlinks() {
         this.links = []
         this.title = []
-        if (command === 'links') {
+        if (command === 'atc') {
             content = msg.content.slice(7)
             const opts = {
                 method: 'GET',
@@ -48,7 +48,7 @@ bot.on('message', msg => {
             .setDescription(links)
             .setTimestamp(new Date().toISOString())
             .setColor(0x0E76BD)
-            .setFooter('Fait par Bouty92', 'https://support.discordapp.com/system/photos/3600/7204/6172/profile_image_368459926511_678183.jpg')
+            .setFooter('By COPNTALK ', 'https://media.discordapp.net/attachments/478702505484877826/479845227377721364/image.jpg')
         msg.channel.send(embed)
     }
     function exec(err) {
