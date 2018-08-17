@@ -48,7 +48,7 @@ bot.on('message', msg => {
             .setDescription(atc)
             .setTimestamp(new Date().toISOString())
             .setColor(0x0E76BD)
-            .setFooter('By COPNTALK ', 'https://media.discordapp.net/attachments/478702505484877826/479845227377721364/image.jpg')
+            .setFooter('by COPNTALK ', 'https://media.discordapp.net/attachments/478702505484877826/479845227377721364/image.jpg')
         msg.channel.send(embed)
     }
     function exec(err) {
