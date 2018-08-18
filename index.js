@@ -64,4 +64,4 @@ bot.on('message', msg => {
 
 })
 
-bot.login(process.env.token);
+bot.login(process.env.discord_token);
