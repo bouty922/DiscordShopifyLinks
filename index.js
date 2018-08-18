@@ -4,6 +4,7 @@ const config = require(path.join(__dirname, 'config.json'));
 const cheerio = require('cheerio')
 const Discord = require('discord.js');
 const bot = new Discord.Client();
+const token = process.env.token;
 
 
 
